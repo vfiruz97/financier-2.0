@@ -6,27 +6,22 @@ version: 1.0.0+1
 environment:
   sdk: ^3.6.0
 
+resolution: workspace
+
 dependencies:
   flutter:
     sdk: flutter
   api_client:
-    path: ../../utility/api_client
   design_system_kit:
-    path: ../../utility/design_system_kit
   marvel_characters:
-    path: ../../feature/marvel_characters
   monitoring_kit:
-    path: ../../utility/monitoring_kit
   di_kit:
-    path: ../../utility/di_kit
-
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   linter_analysis:
-    path: ../../utility/linter_analysis
 
 flutter:
   uses-material-design: true

@@ -6,11 +6,12 @@ publish_to: none
 environment:
   sdk: ^3.6.0
 
+resolution: workspace
+
 dependencies:
   barrel_files_annotation:
 
 dev_dependencies:
   linter_analysis:
-    path: ../linter_analysis
   barrel_files: 
   build_runner:

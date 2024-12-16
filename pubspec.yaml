@@ -1,0 +1,17 @@
+name: _
+publish_to: "none"
+environment:
+  sdk: ^3.6.0
+workspace:
+  # app
+  - app/financier
+  # utility
+  - utility/api_client
+  - utility/design_system_kit
+  - utility/di_kit
+  - utility/feature_flow
+  - utility/foundation_kit
+  - utility/linter_analysis
+  - utility/monitoring_kit
+  # feature
+  - feature/marvel_characters
