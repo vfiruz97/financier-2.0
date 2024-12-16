@@ -1,0 +1,22 @@
+name: design_system_kit
+description: Design system
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  barrel_files_annotation:
+  
+  
+dev_dependencies:
+  linter_analysis:
+    path: ../linter_analysis
+  barrel_files: 
+  build_runner:
+
+flutter:
+  uses-material-design: true

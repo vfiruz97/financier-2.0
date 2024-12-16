@@ -1,0 +1,27 @@
+name: feature_flow
+description: "A new Flutter package project."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  di_kit:
+    path: ../di_kit
+  flow_builder: ^0.1.0
+  get_it: ^8.0.3
+  barrel_files_annotation:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  linter_analysis:
+    path: ../linter_analysis
+  barrel_files: 
+  build_runner:
+
+flutter:assets:
+  uses-material-design: true

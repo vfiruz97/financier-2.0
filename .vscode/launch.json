@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "financier",
+      "cwd": "app/financier",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": ["--dart-define-from-file", "config/dev.json"]
+    },
+    {
+      "name": "financier (profile mode)",
+      "cwd": "app/financier",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "toolArgs": ["--dart-define-from-file", "config/profile.json"]
+    },
+    {
+      "name": "financier (release mode)",
+      "cwd": "app/financier",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "toolArgs": ["--dart-define-from-file", "config/release.json"]
+    }
+  ]
+}

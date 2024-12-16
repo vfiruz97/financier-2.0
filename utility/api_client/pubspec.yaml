@@ -1,0 +1,27 @@
+name: api_client
+description: API client
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  di_kit:
+    path: ../di_kit
+  foundation_kit:
+    path: ../foundation_kit
+  barrel_files_annotation:
+  crypto: ^3.0.6
+  dio: ^5.7.0
+  injectable: ^2.5.0
+  json_annotation: ^4.9.0
+  
+  
+dev_dependencies:
+  linter_analysis:
+    path: ../linter_analysis
+  barrel_files: 
+  injectable_generator: 
+  json_serializable: 
+  build_runner:

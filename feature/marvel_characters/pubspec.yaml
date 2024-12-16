@@ -1,0 +1,46 @@
+name: marvel_characters
+description: "A new Flutter package project."
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  api_client:
+    path: ../../utility/api_client
+  design_system_kit:
+    path: ../../utility/design_system_kit
+  monitoring_kit:
+    path: ../../utility/monitoring_kit
+  foundation_kit:
+    path: ../../utility/foundation_kit
+  di_kit:
+    path: ../../utility/di_kit
+  feature_flow:
+    path: ../../utility/feature_flow
+  flutter_bloc: ^8.1.6
+  freezed_annotation: ^2.4.4
+  barrel_files_annotation:
+  dio: ^5.7.0
+  injectable: ^2.5.0
+  retrofit: ^4.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  linter_analysis:
+    path: ../../utility/linter_analysis
+  barrel_files: 
+  freezed: 
+  injectable_generator: 
+  json_serializable: 
+  build_runner:
+  retrofit_generator:
+  
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,25 @@
+name: monitoring_kit
+description: Monitoring
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  di_kit:
+    path: ../di_kit
+  barrel_files_annotation:
+  injectable: ^2.5.0
+  firebase_crashlytics: ^4.2.0
+  firebase_core: ^3.8.1
+  
+  
+dev_dependencies:
+  linter_analysis:
+    path: ../linter_analysis
+  barrel_files: 
+  injectable_generator: 
+  build_runner:
+  mocktail: ^1.0.4
+  test:
