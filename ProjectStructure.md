@@ -4,7 +4,7 @@
 
 This document outlines the structure of the project to ensure it is scalable, maintainable, and easy to navigate for new and experienced developers alike.
 
-![alt text](app_layer.png)
+![alt text](https://raw.githubusercontent.com/vfiruz97/financier-2.0/refs/heads/main/app_layers.png)
 
 ## Folder Structure
 
